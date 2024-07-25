@@ -6,6 +6,7 @@ import Art from "./Art";
 import Landing from "./Landing";
 import Tech from "./Tech";
 import Resume from "./Resume";
+import Contact from "./Contact";
 
 
 
@@ -14,9 +15,7 @@ export default function App() {
   return (
     <>
       <header>
-        <Header/>
-      </header>
-      <div>
+      <Header/>
       <BrowserRouter>
       <Routes>
         <Route  path="/" element={<App />}/>
@@ -24,15 +23,10 @@ export default function App() {
           <Route path="/art" element={<Art />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/tech" element={<Tech />} />
-          <Route path="/contact" element={<Art />} />
-         
-       
+          <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
-
-    
-      </div>
-
+      </header>
     </>
    
   );
