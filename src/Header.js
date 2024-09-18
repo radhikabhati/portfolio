@@ -12,11 +12,11 @@ function Header() {
     <div className="App">
       <header className="App-header">
        <ul className="horizontal-list">
-       <li onClick={()=>setPath("")}>Logo</li>
-           <li onClick={()=>setPath("tech")} >Software Engineering</li>
-           <li onClick={()=>setPath("resume")} >Resume</li>
-           <li onClick={()=>setPath("art")}>Art</li>
-           <li onClick={()=>setPath("contact")}>Contact</li>
+       <li onClick={()=>setPath("portfolio")}>Logo</li>
+           <li onClick={()=>setPath("portfolio/tech")} >Software Engineering</li>
+           <li onClick={()=>setPath("portfolio/resume")} >Resume</li>
+           <li onClick={()=>setPath("portfolio/art")}>Art</li>
+           <li onClick={()=>setPath("portfolio/contact")}>Contact</li>
        </ul>
            
        

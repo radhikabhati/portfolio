@@ -20,10 +20,10 @@ export default function App() {
       <Routes>
         <Route  path="/" element={<App />}/>
           <Route  index element={<Landing />} />
-          <Route path="/art" element={<Art />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/tech" element={<Tech />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio/art" element={<Art />} />
+          <Route path="/portfolio/resume" element={<Resume />} />
+          <Route path="/portfolio/tech" element={<Tech />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
       </header>
