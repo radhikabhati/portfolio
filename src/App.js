@@ -1,5 +1,5 @@
 
-import {  Routes, Route , HashRouter} from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 
 import Header from "./Header";
 import Art from "./Art";
@@ -16,16 +16,16 @@ export default function App() {
     <>
       <header>
       <Header/>
-      <HashRouter basename="/portfolio">
+      
       <Routes>
         <Route  path="/" element={<App />}/>
           <Route  index element={<Landing />} />
-          <Route path="/portfolio#/art" element={<Art />} />
-          <Route path="/portfolio#/resume" element={<Resume />} />
-          <Route path="/portfolio#/tech" element={<Tech />} />
-          <Route path="/portfolio#/contact" element={<Contact />} />
+          <Route path="/portfolio/art" element={<Art />} />
+          <Route path="/portfolio/resume" element={<Resume />} />
+          <Route path="/portfolio/tech" element={<Tech />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
       </Routes>
-    </HashRouter>
+    
       </header>
       <body>
         {window.location.pathname}
