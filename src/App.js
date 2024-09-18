@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route , HashRouter} from "react-router-dom";
 
 import Header from "./Header";
 import Art from "./Art";
@@ -16,7 +16,7 @@ export default function App() {
     <>
       <header>
       <Header/>
-      <BrowserRouter>
+      <HashRouter basename="/portfolio">
       <Routes>
         <Route  path="/" element={<App />}/>
           <Route  index element={<Landing />} />
@@ -25,7 +25,7 @@ export default function App() {
           <Route path="/portfolio#/tech" element={<Tech />} />
           <Route path="/portfolio#/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
       </header>
       <body>
         {window.location.pathname}
