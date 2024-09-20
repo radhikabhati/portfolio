@@ -2,7 +2,7 @@
 
 function Landing() {
   return (
-    <div className="Art">
+    <div className="Landing" >
      <h1>Landing</h1>
     </div>
   );
