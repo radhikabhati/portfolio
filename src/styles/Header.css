@@ -1,0 +1,21 @@
+
+
+.App-header {
+    background-color: #000;
+    margin-bottom: 0px;
+  }
+  .horizontal-list {
+    width: fit-content;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .horizontal-list li {
+    background-color: #000;
+    display: inline;
+    margin-right: 20px;
+  }
+  

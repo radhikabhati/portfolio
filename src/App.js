@@ -1,6 +1,6 @@
 
-import {  Routes, Route } from "react-router-dom";
-
+//import {  Routes, Route } from "react-router-dom";
+import { useCallback , useState, useEffect} from "react";
 import Header from "./Header";
 import Art from "./Art";
 import Landing from "./Landing";
@@ -11,26 +11,37 @@ import Contact from "./Contact";
 
 
 export default function App() {
+ 
+  const [page, setPage] = useState("portfolio");
+
+
+const handleClick = useCallback((value) => {
+  
+  setPage(value);
+  
+}, []); // Only recreate handleClick when count changes
+
+useEffect(()=>{
+
+  console.log("something changed page -",  page)
+},[page])
+
 
   return (
     <>
       <header>
-      <Header/>
-      
-      <Routes>
-        <Route  path="/" element={<App />}/>
-          <Route  index element={<Landing />} />
-          <Route path="/portfolio#/art" element={<Art />} />
-          <Route path="/portfolio#/resume" element={<Resume />} />
-          <Route path="/portfolio#/tech" element={<Tech />} />
-          <Route path="/portfolio#/contact" element={<Contact />} />
-      </Routes>
+      <Header onClick={handleClick} />
+
     
       </header>
-      <body>
-        {window.location.pathname}
+      <div>
+      {page === "portfolio" && <Landing />}
+        {page === "tech" && <Tech />}
+        {page === "resume" && <Resume />}
+        {page === "art" && <Art />}
+        {page === "contact" && <Contact />}
 
-      </body>
+      </div>
     </>
    
   );

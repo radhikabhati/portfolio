@@ -2,9 +2,10 @@
 
 function Resume() {
   return (
-    <div className="Art">
-     <a target="_blank" rel="noreferrer" href="https://radhikabhati.github.io/resume/"><h1>Resume</h1></a>
+    <div className="Resume">
      
+     <iframe title="art-preview" src="https://radhikabhati.github.io/resume/" width="100%" height="1000"></iframe>
+    
     </div>
   );
 }

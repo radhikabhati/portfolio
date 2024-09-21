@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+body {
+   
+    background-image: url("../assets/starlight.png");
+    font-family: 'Cutive Mono';
+   
+   
+}
+
+.content {
+    padding: 20px;
+    color : #fff;
+    text-align: center;
+    
+
+
+}
+
+.subsection-holder{
+    padding:20px ;
+    color: #fff;
+    background-color: #5f7c6a;
+    text-align: left;
+    border: 1px solid #5f7c6a;
+    box-shadow: 1px solid #000;
+}
