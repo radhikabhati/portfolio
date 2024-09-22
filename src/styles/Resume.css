@@ -1,0 +1,22 @@
+.resume {
+  
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    background-color: #000000df; 
+    box-shadow: 10px #5f7c6a;
+    
+
+}
+
+
+a:link:not(#exclude), a:visited:not(#exclude) {
+    text-decoration: underline;
+    color: rgb(170, 105, 13);
+    cursor: pointer;
+}
+
+.date{
+    color: #fff;
+    font-weight: bolder;
+}

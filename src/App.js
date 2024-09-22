@@ -1,6 +1,6 @@
 
 //import {  Routes, Route } from "react-router-dom";
-import { useCallback , useState, useEffect} from "react";
+import { useCallback , useState} from "react";
 import Header from "./Header";
 import Art from "./Art";
 import Landing from "./Landing";
@@ -20,13 +20,6 @@ const handleClick = useCallback((value) => {
   setPage(value);
   
 }, []); // Only recreate handleClick when count changes
-
-useEffect(()=>{
-
-  console.log("something changed page -",  page)
-},[page])
-
-
   return (
     <>
       <header>

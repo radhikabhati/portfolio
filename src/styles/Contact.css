@@ -1,0 +1,14 @@
+.contact{
+    color:#fff;
+}
+
+a:link:not(#exclude), a:visited:not(#exclude) {
+    text-decoration: underline;
+    color: rgb(170, 105, 13);
+    cursor: pointer;
+}
+.messageBox{
+    margin:30px;
+    padding: 200px;
+    background-color: #000;
+}
