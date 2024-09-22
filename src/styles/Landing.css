@@ -20,8 +20,24 @@ body {
 .subsection-holder{
     padding:20px ;
     color: #fff;
-    background-color: #5f7c6a;
-    text-align: left;
+    background-color: #000;
+    text-align: center;
     border: 1px solid #5f7c6a;
     box-shadow: 1px solid #000;
+}
+
+.about{
+
+    padding:30px;
+    background-color: #000;
+    text-align: left;
+   
+}
+
+.sub{
+    border: 1px solid #5f7c6a;
+    display: inline-flex;
+    padding:30px;
+    background-color: #000;
+    margin: 10px;
 }
