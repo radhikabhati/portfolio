@@ -1,20 +1,29 @@
 
-import './styles/Landing.css'
+import './styles/Landing.css';
+import './styles/style.css';
 function Landing() {
   return (
     <div className="content">
-     <h1>Hi, my name is Radhika.. </h1>
     
+<div className='about'> <div class="patterns">
+  <svg width="100%" height="100%">
+ <text x="50%" y="60%"  text-anchor="middle"  >
+ Radhika Bhati
+ </text>
+ </svg>
+</div>
 
+<p class="cursor typewriter-animation"> Hi there! welcome..</p>
+<p class="cursor typewriter-animation-message"> This is my work-in-progress portfolio website, made just for fun :P</p>
+</div>
+ 
+{/*    
      <div className="subsection-holder">
-      <div className='about'>I am a full stack engineer. I like painting, gardening, photography, making art, astrology, spiralling down web design rabit holes, taking long walks as I space out and spending all my time with my dogs. This is my work-in-progress portfolio website which will include my professional details but also depict my interests and is made just for fun :)</div>
       <div className='sub'>Fun/Interests</div>
       <div className='sub'>Scratchpad</div>
       <div className='sub'>Reading list</div>
       <div className='sub'>placeholder subsection</div>
-      
-
-     </div>
+     </div> */}
     </div>
   );
 }

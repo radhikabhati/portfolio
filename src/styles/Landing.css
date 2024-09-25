@@ -12,17 +12,13 @@ body {
     padding: 20px;
     color : #fff;
     text-align: center;
-    
-
-
 }
 
 .subsection-holder{
     padding:20px ;
     color: #fff;
-    background-color: #000;
+    background-color: #000000bf;
     text-align: center;
-    border: 1px solid #5f7c6a;
     box-shadow: 1px solid #000;
 }
 
@@ -36,8 +32,15 @@ body {
 
 .sub{
     border: 1px solid #5f7c6a;
-    display: inline-flex;
+    display: block;
     padding:30px;
-    background-color: #000;
-    margin: 10px;
+    background-color: #d8a708;
+    color: #000;
+    
+    margin: 200px;
+    height:300px;
+}
+
+.sub:hover {
+    opacity: 70%;
 }

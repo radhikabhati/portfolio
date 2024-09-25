@@ -1,0 +1,71 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+/* Cursor */
+.cursor{
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    font-size: x-large;
+    text-align: center;
+    white-space: nowrap;
+    overflow:auto;
+    transform: translateY(-50%);    
+}
+/* Animation */
+.typewriter-animation {
+  animation: 
+    typewriter 6s steps(50) 1s 1 normal both, 
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+.typewriter-animation-message {
+  
+    animation: 
+      typewriter 5s steps(50) 3s 1 normal both, 
+      blinkingCursor 500ms steps(50) infinite normal;
+  }
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blinkingCursor{
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+ .patterns {
+   height: 25vh;
+ }
+ 
+ 
+ 
+ svg text {
+     font-family:Arial, Helvetica, sans-serif;
+   letter-spacing: 10px;
+   stroke: #ffa5d8;
+   font-size: 150px;
+   font-weight: 500;
+   stroke-width: 1;
+   animation: textAnimate 6s infinite alternate;
+   
+ }
+ 
+ @keyframes textAnimate {
+   0% {
+     stroke-dasharray: 0 50%;
+     stroke-dashoffset:  20%;
+     fill:#ec0487;
+ 
+   }
+   
+   100% {
+     stroke-dasharray: 50% 0;
+     stroke-dashoffstet: -20%;
+     /* fill: hsla(189, 68%, 75%,0%) */
+   }
+   
+ }
+ 
+ 
+ 
