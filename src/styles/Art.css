@@ -2,7 +2,7 @@ body{
     margin:0px;
 }
 .Art{
-    background-color :#5f7c6a;
+    background-image: url('../assets/starlight.png');
     text-align: center;
     color: #000;
     padding:20px
