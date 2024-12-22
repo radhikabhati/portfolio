@@ -15,13 +15,32 @@ function Resume() {
      
      lineColor={ '#5f7c6a' }
      >
+      <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    position={ "left" }
+    contentStyle={{ background: '#fff', color: '#000' }}
+   
+    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+     dateClassName = "date"
+    date="Current"
+    iconStyle={{ background: '#fff', color: '#000' }}
+    //icon={<WorkIcon />}
+  >
+    
+    <h3 className="vertical-timeline-element-title">  Google - Software Engineer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Pittsburgh, Pennsylvania</h4>
+    <p>
+      Site reliability on Ads Quaility for Google
+    </p>
+   
+  </VerticalTimelineElement>
   
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    position={ "left" }
-    contentStyle={{ background: '#5f7c6a', color: '#fff' }}
+    position={ "right" }
+    
    
-    contentArrowStyle={{ borderRight: '7px solid  #5f7c6a' }}
+    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
      dateClassName = "date"
     date="August 2024  - October 2024"
     iconStyle={{ background: '#5f7c6a', color: '#fff' }}

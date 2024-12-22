@@ -2,21 +2,33 @@
 
 body {
    
-    background-image: url("../assets/starlight.png");
+   
     font-family: 'Cutive Mono';
+    background-color: #d4ccccbf;
    
    
 }
 
+
+
+
+ h1 {
+    text-align: center;
+    text-decoration:solid;
+    font-family: "Roboto", serif;
+    font-weight: 7000;
+    font-size: -webkit-xxx-large;
+    font-style: normal;
+ }
 .content {
     padding: 20px;
-    color : #fff;
+
     text-align: center;
 }
 
 .subsection-holder{
     padding:20px ;
-    color: #fff;
+ 
     background-color: #000000bf;
     text-align: center;
     box-shadow: 1px solid #000;
@@ -25,7 +37,7 @@ body {
 .about{
 
     padding:30px;
-    background-color: #000;
+   
     text-align: left;
    
 }
@@ -41,6 +53,3 @@ body {
     height:300px;
 }
 
-.sub:hover {
-    opacity: 70%;
-}
